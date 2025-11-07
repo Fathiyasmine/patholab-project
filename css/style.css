@@ -97,7 +97,7 @@ nav {
 }
 
 .logo img {
-  width: 230px;
+  width: 150px;
   height: 100px;
   margin-right: 50px;
 }
@@ -168,7 +168,13 @@ nav {
 .buttons-one {
   background: linear-gradient(to right, #a7f1ac, #2ad2c1);
 }
-
+.services {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+}
 .buttons-two,
 .buttons-three {
   background: linear-gradient(to right, #9b9c9b, #ffffff, #fbfbfb);
@@ -225,14 +231,51 @@ nav {
   background: white;
   font-family: "Chakra Petch", sans-serif;
 }
-
+.two-p {
+  margin-top: 5px;
+}
+.services ol div li h3 {
+  font-weight: bold;
+  font-size: 17px;
+}
+.services ol div li {
+  position: relative;
+  width: 280px;
+  border: 1px solid #eee;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 20px 3px #e0e0e0;
+  border-radius: 10px;
+  background-color: #fff;
+  height: 200px;
+}
+.services ol {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  list-style: none;
+}
+.nav-right .social-icons a {
+  width: 35px;
+  height: 35px;
+  border-radius: 17px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  -webkit-border-radius: 17px;
+  -moz-border-radius: 17px;
+  -ms-border-radius: 17px;
+  -o-border-radius: 17px;
+}
 .dropdown-content {
   display: none;
   position: absolute;
   background: white;
-  width: 100px;
+  width: 130px;
   z-index: 1;
   padding: 15px 5px;
+  top: 35px;
 }
 
 .dropdown-content a {
@@ -247,10 +290,6 @@ nav {
 
 .dropdown:hover .dropdown-content {
   display: block;
-}
-
-.dropdown .dropdown-content a:hover {
-  color: #00fb8a;
 }
 
 .nav-right {
@@ -300,6 +339,7 @@ nav {
   font-family: "Cairo", sans-serif;
   font-weight: bold;
   color: #2ad2c1;
+  margin-top: 0px;
 }
 
 .title {
@@ -426,7 +466,13 @@ nav {
 .services ol {
   counter-reset: item;
 }
-
+.recomandation {
+  background-color: white;
+  background-image: url(https://img.freepik.com/photos-premium/fond-bleu-clair-motif-carres-lignes_427757-274.jpg);
+  display: flex;
+  align-items: center;
+  height: 600px;
+}
 .services ol div li:hover::before {
   transform: scaleY(1.5);
 }
@@ -441,7 +487,7 @@ nav {
 
 .column {
   list-style-type: none;
-  padding: 0;
+  padding: 17px;
   margin: 0;
 }
 
@@ -457,8 +503,8 @@ nav {
   top: 50%;
   transform: translateY(-50%);
   color: white;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   background-color: #4286f5;
   display: flex;
@@ -477,7 +523,6 @@ nav {
   background-color: #f5f8fd;
   background-image: url(https://demo.bravisthemes.com/patholab/wp-content/uploads/2023/09/bg-sv.png);
   background-position: bottom center;
-  margin-bottom: 30px;
 }
 
 h4 {
@@ -665,8 +710,7 @@ ul .last-p {
 }
 
 .buttons
-  a:nth-of-type(1):hover:not(.healthcheck2 a, .medpack1 a, .medicarepack3 a),
-.nav-bar a:nth-last-of-type(1):hover {
+  a:nth-of-type(1):hover:not(.healthcheck2 a, .medpack1 a, .medicarepack3 a) {
   background: linear-gradient(to right, #a7f1ac, #2ad2c1);
 }
 
@@ -790,7 +834,13 @@ ul .last-p {
 .stars {
   border-right: 5px solid orange;
 }
-
+.left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 80px;
+  justify-content: center;
+}
 .stars img {
   position: absolute;
   width: 50px;
@@ -806,7 +856,7 @@ ul .last-p {
   font-weight: 700;
   color: #1d2864;
   font-size: 14px;
-  margin-top: -15px;
+  margin-top: -10px;
 }
 
 .stars p {
@@ -821,6 +871,7 @@ ul .last-p {
   top: 76%;
   left: 25%;
   transform: translate(-40%, 0%);
+  margin-top: -9px;
 }
 
 @keyframes slide {
@@ -850,8 +901,8 @@ ul .last-p {
   background-color: #f5f8fd;
   background-image: url(https://demo.bravisthemes.com/patholab/wp-content/uploads/2023/09/bg2.png);
   background-position: 0px 70px;
-  background-repeat: no-repeat;
-  margin-bottom: 30px;
+  background-repeat: repeat;
+  width: 100%;
 }
 
 /*section four*/
@@ -859,9 +910,9 @@ ul .last-p {
 .four span {
   color: #0abeac;
   margin-right: 70px;
-  font-size: 30px;
+  font-size: 35px;
+  margin: 10px;
 }
-
 .four p {
   color: #eee;
   display: flex;
@@ -871,19 +922,33 @@ ul .last-p {
 .four h4 {
   margin-bottom: 20px;
   color: white;
+  margin-left: 240px;
+  padding: 15px;
 }
 
 .four {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  text-align: center;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  background-image: url(https://demo.bravisthemes.com/patholab/wp-content/uploads/2023/09/bg-counter-image.jpg);
+  background-size: cover;
+  background-position: center center;
+  z-index: -1;
+  height: 800px;
 }
 
 .container {
   display: flex;
   gap: 20px;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 18px;
 }
 
 .container .fourth {
@@ -891,37 +956,34 @@ ul .last-p {
   padding: 10px;
 }
 
+.vertical-text {
+  display: flex;
+  justify-content: center;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+}
+
+.four .container .fourth {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fourth span:nth-of-type(1),
 .fourth p {
+  justify-content: flex-start;
+  display: flex;
+  margin-top: 30px;
+}
+
+.fourth p {
+  font-size: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
   font-family: "Chakra Petch", sans-serif;
   font-weight: 600;
 }
-  .vertical-text {
-    display: flex;
-    justify-content: center;
-    writing-mode: vertical-lr;
-    transform: rotate(180deg);
-  }
-
-  .four .container .fourth {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .fourth span:nth-of-type(1),
-  .fourth p {
-    justify-content: flex-start;
-    display: flex;
-    margin-top: 30px;
-  }
-
-  .fourth p {
-    font-size: 18px;
-    color: white;
-    display: flex;
-    justify-content: center;
-  }
-
 
 .fourth span:nth-of-type(1) {
   font-size: 50px;
@@ -941,7 +1003,7 @@ ul .last-p {
   background-size: cover;
   background-position: center center;
   z-index: -1;
-  height: 600px;
+  height: 500px;
 }
 
 .four::before {
@@ -959,7 +1021,6 @@ ul .last-p {
 .five {
   background-color: #2ad2c1;
   padding: 20px;
-  margin-bottom: 30px;
 }
 
 .five .five-p {
@@ -1029,7 +1090,7 @@ ul .last-p {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 535px;
+  height: 600px;
 }
 
 .left-section h3 {
@@ -1037,27 +1098,22 @@ ul .last-p {
   color: #0e0e5c;
   font-size: 35px;
 }
-.left-section {
-  display: flex;
-  flex-direction: column;
-  max-width: calc(100% / 2);
-  align-items: flex-start;
-}
 
 .right-section {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   width: calc(100% / 2);
+  margin-right: 150px;
 }
 
 .right-section img {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  margin-bottom: 55px;
-  width: 600px;
-  height: 550px;
+  margin-bottom: -71px;
+  width: 500px;
+  height: 528px;
 }
 
 .recomandation .left-section .buttons a:nth-child(2) {
@@ -1085,7 +1141,7 @@ ul .last-p {
 
 .six .caroussel li {
   width: 300px;
-  height: 300px;
+  height: 350px;
   background-color: white;
   border-radius: 20px;
   padding: 20px;
@@ -1240,6 +1296,7 @@ ul .last-p {
   display: flex;
   flex-direction: column;
   justify-content: column;
+  margin-left: 80px;
 }
 
 .formulaire {
@@ -1251,7 +1308,6 @@ ul .last-p {
   color: white;
   font-family: Calibri;
   padding: 10px;
-  margin: 0;
   text-align: center;
 }
 
@@ -1492,7 +1548,7 @@ ul .last-p {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  width: 100%;
+  width: 1678px;
   height: 150px;
   background-color: #2ad2c1;
   background-image: linear-gradient(90deg, #24b7d3 0%, #39e2a8 100%);
@@ -1598,10 +1654,6 @@ ul .last-p {
   margin: 0;
 }
 
-.caroussel li p {
-  margin: 0 20px;
-}
-
 .caroussel ul {
   display: flex;
   gap: 8px;
@@ -1681,6 +1733,7 @@ ul .last-p {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin: 3px;
 }
 
 .left-side .reseau a {
@@ -1849,4 +1902,12 @@ h4,
   line-height: 50%;
   color: #7a7a7a;
   font-size: 19px;
+  align-items: center;
+}
+.left-section {
+  display: flex;
+  flex-direction: column;
+  max-width: calc(100% / 2);
+  align-items: flex-start;
+  margin-left: 200px;
 }
