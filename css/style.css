@@ -98,7 +98,7 @@ nav {
 
 .logo img {
   width: 150px;
-  height: 100px;
+  height: 50px;
   margin-right: 50px;
 }
 
@@ -194,6 +194,7 @@ nav {
 .buttons-three {
   width: 200px;
   height: 50px;
+  font-weight: bold;
 }
 
 .buttons a {
@@ -232,7 +233,7 @@ nav {
   font-family: "Chakra Petch", sans-serif;
 }
 .two-p {
-  margin-top: 5px;
+  margin-top: 30px;
 }
 .services ol div li h3 {
   font-weight: bold;
@@ -680,10 +681,13 @@ ul .last-p {
 
 .buttons a:nth-of-type(1):not(.healthcheck2 a, .medpack1 a, .medicarepack3 a),
 .nav-bar a:nth-last-of-type(1):not(.nav-bar a) {
-  background: linear-gradient(to right, #2ad2c1, #a7f1ac);
+  background: linear-gradient(to right, #20b2a5, #a7f1ac);
   transition: all 0.3s ease;
+  color: black;
 }
-
+.two {
+  padding: 15px;
+}
 .seven .medpack1 .buttons a,
 .seven .medicarepack3 .buttons a {
   background-color: #0a0a69 !important;
@@ -760,7 +764,7 @@ ul .last-p {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 50px;
 }
 
 .image-left {
@@ -923,7 +927,10 @@ ul .last-p {
   margin-bottom: 20px;
   color: white;
   margin-left: 240px;
-  padding: 15px;
+  padding: 50px;
+}
+h4 {
+  margin: 10px 0px;
 }
 
 .four {
@@ -934,7 +941,7 @@ ul .last-p {
   background-size: cover;
   background-position: center center;
   z-index: -1;
-  height: 800px;
+  height: 660px;
 }
 
 .container {
@@ -944,11 +951,10 @@ ul .last-p {
 .container {
   width: 100%;
   max-width: 1200px;
-  margin: auto;
+  margin-left: 250px;
   display: flex;
   gap: 20px;
   justify-content: space-between;
-  padding: 18px;
 }
 
 .container .fourth {
@@ -1003,7 +1009,7 @@ ul .last-p {
   background-size: cover;
   background-position: center center;
   z-index: -1;
-  height: 500px;
+  height: 600px;
 }
 
 .four::before {
@@ -1020,7 +1026,7 @@ ul .last-p {
 
 .five {
   background-color: #2ad2c1;
-  padding: 20px;
+  padding: 50px;
 }
 
 .five .five-p {
@@ -1076,7 +1082,7 @@ ul .last-p {
 
 .carimg img {
   width: 100%;
-  height: 180px;
+  height: 150px;
   object-fit: cover;
   border-radius: 0px 0px 10px 10px;
 }
@@ -1129,6 +1135,7 @@ ul .last-p {
 .six {
   position: relative;
   margin-bottom: 30px;
+  padding: 70px;
 }
 
 .six-p {
@@ -1170,7 +1177,7 @@ ul .last-p {
 }
 
 .best {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 .hexagon {
@@ -1279,8 +1286,9 @@ ul .last-p {
 
 .seven {
   width: auto;
-  height: 975px;
+  height: 1136px;
   margin-bottom: 30px;
+  padding: 70px;
 }
 
 /*section height*/
@@ -1398,7 +1406,7 @@ ul .last-p {
 
 .blue-img figure img {
   width: 100%;
-  height: 200px;
+  height: 240px;
   margin: auto;
 }
 
@@ -1420,6 +1428,7 @@ ul .last-p {
 .nine {
   position: relative;
   margin-bottom: 40px;
+  padding: 50px;
 }
 
 .nine .carousel-item {
@@ -1548,7 +1557,7 @@ ul .last-p {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  width: 1678px;
+  width: 1700px;
   height: 150px;
   background-color: #2ad2c1;
   background-image: linear-gradient(90deg, #24b7d3 0%, #39e2a8 100%);
@@ -1723,7 +1732,9 @@ ul .last-p {
   justify-content: space-around;
   flex-direction: row;
 }
-
+.height {
+  height: 900px;
+}
 .left-side .reseau a,
 .nav-right .social-icons a {
   width: 50px;
@@ -1909,5 +1920,5 @@ h4,
   flex-direction: column;
   max-width: calc(100% / 2);
   align-items: flex-start;
-  margin-left: 200px;
+  margin-left: -10px;
 }
