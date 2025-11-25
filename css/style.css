@@ -686,7 +686,7 @@ ul .last-p {
   color: black;
 }
 .two {
-  padding: 15px;
+  padding: 25px;
 }
 .seven .medpack1 .buttons a,
 .seven .medicarepack3 .buttons a {
@@ -764,7 +764,7 @@ ul .last-p {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 50px;
+  padding: 60px;
 }
 
 .image-left {
@@ -1174,10 +1174,6 @@ h4 {
   background-size: cover;
   background-position: center;
   z-index: -1;
-}
-
-.best {
-  margin-bottom: 25px;
 }
 
 .hexagon {
