@@ -1979,3 +1979,15 @@ h4,
     padding: 0px 16px;
   }
 }
+@media (max-width: 769px) {
+  .ul-head li:not(:last-child) {
+    display: none;
+  }
+  .container a,
+  .ul-head li:nth-of-type(2),
+  .ul-head li:nth-of-type(3) {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 32px;
+  }
+}
