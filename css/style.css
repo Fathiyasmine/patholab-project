@@ -1962,5 +1962,6 @@ h4,
   .ul-head li:nth-of-type(2) {
     display: flex;
     justify-content: space-between;
+    font-size: 12px;
   }
 }
