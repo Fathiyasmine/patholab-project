@@ -1952,3 +1952,11 @@ h4,
   align-items: flex-start;
   margin-left: 60px;
 }
+
+@media (max-width: 426px) {
+  .ul-head li:nth-of-type(1),
+  .ul-head li:nth-of-type(3) {
+    display: none;
+    justify-content: space-between;
+  }
+}
