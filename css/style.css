@@ -70,7 +70,9 @@ a,
 .ul-head li:not(:last-child) {
   margin-right: 20px;
 }
-
+.fa-solid {
+  margin-right: 5px;
+}
 /*navigation*/
 
 nav {
@@ -1963,5 +1965,8 @@ h4,
     display: flex;
     justify-content: space-between;
     font-size: 12px;
+  }
+  body {
+    margin: 0;
   }
 }
