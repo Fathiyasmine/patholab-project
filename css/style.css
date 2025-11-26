@@ -1995,3 +1995,22 @@ h4,
     padding: 0px 16px;
   }
 }
+@media (min-width: 1024px) {
+  .container a,
+  .ul-head li:nth-of-type(1),
+  .ul-head li:nth-of-type(2),
+  .ul-head li:nth-of-type(3) {
+    display: flex;
+    justify-content: space-between;
+  }
+  .container {
+    padding: 0px 16px;
+  }
+}
+@media (min-width: 1439px) {
+  .container {
+    padding: 0px 40px;
+    max-width: 1024px;
+    margin: auto;
+  }
+}
