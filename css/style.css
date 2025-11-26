@@ -16,6 +16,7 @@ body {
   align-items: center;
   color: #0a0a69;
   list-style: none;
+  padding: 0px;
 }
 
 .container {
@@ -115,6 +116,7 @@ nav {
 .social-icons {
   display: flex;
   gap: 10px;
+  align-items: center;
 }
 
 .appointment-btn {
@@ -131,6 +133,7 @@ nav {
   align-items: center;
   font-family: "Chakra Petch", sans-serif;
   color: white;
+  margin-left: 50px;
 }
 
 .appointment-btn:hover {
@@ -232,9 +235,7 @@ nav {
   background: white;
   font-family: "Chakra Petch", sans-serif;
 }
-.two-p {
-  margin-top: 30px;
-}
+
 .services ol div li h3 {
   font-weight: bold;
   font-size: 17px;
@@ -328,7 +329,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 60px;
   background-image: url(https://demo.bravisthemes.com/patholab/wp-content/uploads/2023/09/bg.jpg);
   background-size: cover;
   margin-bottom: 30px;
@@ -349,7 +350,9 @@ nav {
   align-items: flex-start;
   margin: 0 auto;
   font-size: 48px;
-  max-width: 1200px;
+  max-width: 1437px;
+  margin-left: 40px;
+  padding: 0 16px;
 }
 
 .title-content {
@@ -373,12 +376,15 @@ nav {
 
 .images {
   position: relative;
+  left: 170px;
+  top: 20px;
+  bottom: 20px;
 }
 
 .plays {
   position: absolute;
   top: 46%;
-  right: 88%;
+  right: 95%;
   z-index: 3;
 }
 
@@ -389,7 +395,7 @@ nav {
   height: 200px;
   border-radius: 50%;
   top: 32%;
-  right: 71%;
+  right: 77%;
   z-index: 2;
   background: linear-gradient(white, white) padding-box,
     linear-gradient(45deg, #00fb8a, #0abeac) border-box;
@@ -416,7 +422,7 @@ nav {
   align-items: center;
 }
 .services {
-  width: 1004px;
+  width: 1240px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -565,7 +571,9 @@ ol {
   font-size: 15px;
   font-weight: bold;
 }
-
+.same-p {
+  font-size: 14px;
+}
 ul .last-p {
   color: #eee;
   margin-right: 10px;
@@ -753,18 +761,20 @@ ul .last-p {
   justify-content: space-around;
   border-radius: 40px;
   border: 1px solid #eee;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
 }
 
 /*section three*/
 .sec-three {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: initial;
   align-items: flex-start;
+  padding: 58px;
   width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 60px;
 }
 
 .image-left {
@@ -779,6 +789,9 @@ ul .last-p {
   transform: translateY(50px);
   animation-name: slide;
   animation: slide 3s linear infinite;
+}
+.image-left figure {
+  width: 500px;
 }
 
 .content-right {
@@ -859,8 +872,14 @@ ul .last-p {
   font-family: "Chakra Petch", sans-serif;
   font-weight: 700;
   color: #1d2864;
-  font-size: 14px;
   margin-top: -10px;
+}
+
+.contact span,
+.stars p,
+.same p,
+.stars span {
+  font-size: 14px;
 }
 
 .stars p {
@@ -872,7 +891,7 @@ ul .last-p {
 
 .contact a {
   position: absolute;
-  top: 76%;
+  top: 71%;
   left: 25%;
   transform: translate(-40%, 0%);
   margin-top: -9px;
@@ -915,7 +934,7 @@ ul .last-p {
   color: #0abeac;
   margin-right: 70px;
   font-size: 35px;
-  margin: 10px;
+  margin: -7px;
 }
 .four p {
   color: #eee;
@@ -950,8 +969,7 @@ h4 {
 }
 .container {
   width: 100%;
-  max-width: 1200px;
-  margin-left: 250px;
+  max-width: 1500px;
   display: flex;
   gap: 20px;
   justify-content: space-between;
@@ -964,9 +982,11 @@ h4 {
 
 .vertical-text {
   display: flex;
-  justify-content: center;
   writing-mode: vertical-lr;
   transform: rotate(180deg);
+  -webkit-writing-mode: vertical-lr;
+  -ms-writing-mode: vertical-lr;
+  margin-left: -4px;
 }
 
 .four .container .fourth {
@@ -980,6 +1000,7 @@ h4 {
   justify-content: flex-start;
   display: flex;
   margin-top: 30px;
+  margin-left: -8px;
 }
 
 .fourth p {
@@ -997,7 +1018,7 @@ h4 {
 
 .line {
   width: 2px;
-  height: 300px;
+  height: 366px;
   background-color: #2ad2c1;
 }
 
@@ -1120,6 +1141,7 @@ h4 {
   margin-bottom: -71px;
   width: 500px;
   height: 528px;
+  margin-right: -100px;
 }
 
 .recomandation .left-section .buttons a:nth-child(2) {
@@ -1311,8 +1333,9 @@ h4 {
   background-color: #2ad2c1;
   color: white;
   font-family: Calibri;
-  padding: 10px;
+  padding: 16px;
   text-align: center;
+  margin-right: 30px;
 }
 
 #Service,
@@ -1553,7 +1576,7 @@ h4 {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  width: 1700px;
+  width: 1675px;
   height: 150px;
   background-color: #2ad2c1;
   background-image: linear-gradient(90deg, #24b7d3 0%, #39e2a8 100%);
@@ -1718,6 +1741,7 @@ h4 {
   display: flex;
   flex-direction: column;
   max-width: 300px;
+  margin-top: 20px;
 }
 .left-side p {
   font-size: 20px;
@@ -1733,14 +1757,14 @@ h4 {
 }
 .left-side .reseau a,
 .nav-right .social-icons a {
-  width: 50px;
-  height: 50px;
-  border-radius: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 3px;
+  margin-right: 17px;
 }
 
 .left-side .reseau a {
@@ -1748,12 +1772,10 @@ h4 {
 }
 .left-side .reseau {
   display: flex;
-  justify-content: space-between;
-  margin: 30px;
+  justify-content: start;
+  margin: 30px 0px;
 }
-.open-hour p {
-  margin-top: 44px;
-}
+
 .top-footer,
 .info {
   display: flex;
@@ -1775,6 +1797,18 @@ h4 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+.our-services,
+.for-customers {
+  height: 340px;
+}
+.open-hour {
+  height: 335px;
+}
+.our-services,
+.for-customers,
+.open-hour {
+  padding-left: 0px;
 }
 
 .for-customers li a,
@@ -1803,7 +1837,7 @@ footer {
   opacity: 0.9;
   width: 100%;
   height: 100%;
-  padding: 20px;
+  padding: 60px 30px;
 }
 
 .info .number,
@@ -1815,9 +1849,9 @@ footer {
 .info .location,
 .info .number {
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
   width: 372px;
+  justify-content: center;
 }
 
 .info .adress-mail i,
@@ -1916,5 +1950,5 @@ h4,
   flex-direction: column;
   max-width: calc(100% / 2);
   align-items: flex-start;
-  margin-left: -10px;
+  margin-left: 60px;
 }
