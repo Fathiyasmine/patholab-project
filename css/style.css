@@ -1975,7 +1975,7 @@ h4,
   }
 
   .container {
-    padding: 0px 16px;
+    padding: 2px 16px;
     display: flex;
     justify-content: space-between;
   }
@@ -2011,7 +2011,7 @@ h4,
     justify-content: space-between;
   }
   .container {
-    padding: 0px 16px;
+    padding: 2px 16px;
   }
 }
 @media (min-width: 1439px) {
@@ -2047,9 +2047,11 @@ h4,
   .hamburger {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     cursor: pointer;
     padding: 5px;
     z-index: 1000;
+    height: 27px;
     position: absolute;
     right: 0px;
   }
@@ -2058,7 +2060,6 @@ h4,
     width: 20px;
     height: 2px;
     background-color: rgb(3, 3, 43);
-    margin: 1px 0;
     border-radius: 2px;
   }
   .nav-bar {
