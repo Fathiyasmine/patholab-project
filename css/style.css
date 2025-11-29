@@ -1978,7 +1978,6 @@ h4,
     padding: 0px 16px;
     display: flex;
     justify-content: space-between;
-    width: 499px;
   }
   .separator {
     width: 500px;
@@ -2018,7 +2017,6 @@ h4,
 @media (min-width: 1439px) {
   .container {
     padding: 0px 40px;
-    max-width: 1300px;
     margin: auto;
   }
 }
