@@ -19,7 +19,9 @@ body {
   list-style: none;
   padding: 0px;
 }
-
+.hamburger {
+  display: none;
+}
 .container {
   width: 100%;
   max-width: 1200px;
@@ -2020,27 +2022,101 @@ h4,
     margin: auto;
   }
 }
-/*
-*/
+
+.menu-toggle {
+  display: none;
+}
+
 @media (max-width: 426px) {
   .logo img {
     width: 80px;
     height: 30px;
     padding-right: 0;
   }
+
   .social-icons,
   .nav-right .appointment-btn {
     display: none;
   }
+
   .container nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 5px;
+    z-index: 1000;
+  }
+
+  .hamburger span {
+    width: 30px;
+    height: 3px;
+    background-color: rgb(3, 3, 43);
+    margin: 4px 0;
+    border-radius: 2px;
   }
   .nav-bar {
-    width: 350px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    max-height: 0;
+    overflow: hidden;
+  }
+  .menu-toggle:checked ~ .nav-bar {
+    max-height: 600px;
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
     margin-left: 0px;
+    gap: 10px;
+  }
+
+  .nav-bar .dropdown {
+    width: 100%;
+    border-bottom: 1px solid #eee;
+  }
+
+  .nav-bar .dropdown > a {
+    display: block;
+    padding: 15px 20px;
+  }
+
+  .nav-bar .dropdown-content {
+    position: static;
+    display: none;
+    box-shadow: none;
+    background-color: #f9f9f9;
+  }
+
+  .nav-bar .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .title h1 span {
+    font-size: 20px;
+  }
+
+  .left-section {
+    margin-left: 16px;
+  }
+
+  .one {
+    padding: 20px;
+  }
+
+  .title h1 {
+    font-size: 40px;
   }
 }
+
 @media (min-width: 768px) {
   .logo img {
     width: 100px;
