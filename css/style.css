@@ -24,11 +24,11 @@ body {
 }
 .container {
   width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   gap: 20px;
   justify-content: space-between;
+  padding: 4px 16px;
 }
 
 header a:first-child {
@@ -1974,8 +1974,8 @@ h4,
     margin-right: 0;
   }
 
-  .container {
-    padding: 2px 16px;
+  header div .container:nth-of-child(2) {
+    padding: 4px 16px;
     display: flex;
     justify-content: space-between;
   }
@@ -1997,7 +1997,7 @@ h4,
     display: none;
   }
   .container {
-    padding: 0px 16px;
+    padding: 4px 16px;
     display: flex;
     justify-content: space-between;
   }
