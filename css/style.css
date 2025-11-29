@@ -1974,6 +1974,12 @@ h4,
 
   .container {
     padding: 0px 16px;
+    display: flex;
+    justify-content: space-between;
+    width: 499px;
+  }
+  .separator {
+    width: 500px;
   }
 }
 @media (min-width: 768px) {
@@ -1991,6 +1997,8 @@ h4,
   }
   .container {
     padding: 0px 16px;
+    display: flex;
+    justify-content: space-between;
   }
 }
 @media (min-width: 1024px) {
@@ -2010,5 +2018,57 @@ h4,
     padding: 0px 40px;
     max-width: 1300px;
     margin: auto;
+  }
+}
+/*
+*/
+@media (max-width: 426px) {
+  .logo img {
+    width: 80px;
+    height: 30px;
+    padding-right: 0;
+  }
+  .social-icons,
+  .nav-right .appointment-btn {
+    display: none;
+  }
+  .container nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-bar {
+    width: 350px;
+    margin-left: 0px;
+  }
+}
+@media (min-width: 768px) {
+  .logo img {
+    width: 100px;
+    height: 50px;
+  }
+  .social-icons {
+    margin-left: 33px;
+  }
+  .container nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+  }
+  .nav-bar {
+    width: 296px;
+    gap: 10px;
+  }
+  .nav-right .social-icons a {
+    margin-right: 4px;
+  }
+  .nav-right .social-icons a:nth-of-type(1) {
+    margin-left: 4px;
+  }
+  .ul-head {
+    display: flex;
+    justify-content: center;
+  }
+  .nav-right .appointment-btn {
+    display: none;
   }
 }
