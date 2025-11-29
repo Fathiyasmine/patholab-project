@@ -2033,9 +2033,14 @@ h4,
     padding-right: 0;
   }
 
-  .social-icons,
   .nav-right .appointment-btn {
     display: none;
+  }
+  .social-icons {
+    display: flex;
+    position: relative;
+    top: 266px;
+    right: 98px;
   }
 
   .container nav {
@@ -2074,13 +2079,27 @@ h4,
   }
   .menu-toggle:checked ~ .nav-bar {
     max-height: 227px;
-    width: 263px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-left: 0px;
     gap: 0px;
     height: 220px;
+  }
+  .nav-right .social-icons a {
+    display: none;
+  }
+  .menu-toggle:checked ~ .nav-right .social-icons a {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #cbc6c63b;
+    display: flex;
+    justify-content: center;
   }
 
   .nav-bar .dropdown {
