@@ -2073,17 +2073,20 @@ h4,
     overflow: hidden;
   }
   .menu-toggle:checked ~ .nav-bar {
-    max-height: 600px;
-    width: 370px;
+    max-height: 227px;
+    width: 263px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     margin-left: 0px;
-    gap: 10px;
+    gap: 0px;
+    height: 220px;
   }
 
   .nav-bar .dropdown {
     width: 100%;
     border-bottom: 1px solid #eee;
+    height: 35px;
   }
 
   .nav-bar .dropdown > a {
