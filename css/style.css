@@ -2246,7 +2246,6 @@ h4,
   .buttons {
     display: flex;
     justify-content: start;
-    align-items: anchor-center;
     margin: 0px;
   }
   .content p {
