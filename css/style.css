@@ -2186,17 +2186,20 @@ h4,
     gap: 30px;
   }
 }
-@media (min-width: 320px) {
-  .one figure img,
+@media (min-width: 319px) {
+  /* .images figure img,
   .images::before,
   .images img {
     display: none;
+  } */
+  .images {
+    display: none;
   }
   .left-section h1 {
-    font-size: 20px;
+    font-size: 25px;
   }
   .left-section h1 span {
-    font-size: 35px;
+    font-size: 30px;
   }
   .same-p {
     font-size: 10px;
