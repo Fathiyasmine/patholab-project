@@ -2193,10 +2193,10 @@ h4,
     display: none;
   }
   .left-section h1 {
-    font-size: 14px;
+    font-size: 20px;
   }
   .left-section h1 span {
-    font-size: 24px;
+    font-size: 35px;
   }
   .same-p {
     font-size: 10px;
@@ -2289,6 +2289,11 @@ h4,
   }
 }
 @media (max-width: 768px) {
+  .one figure img,
+  .images::before,
+  .images img {
+    display: block;
+  }
   .one {
     padding: 4px 16px;
   }
@@ -2324,13 +2329,14 @@ h4,
   }
   .images img {
     width: 11px;
+    left: 26px;
   }
   .images::before {
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
     border: 5px solid transparent;
     top: 39%;
-    right: 82%;
+    right: 86%;
   }
   .title h1 {
     font-size: 28px;
@@ -2372,7 +2378,12 @@ h4,
     height: 85px;
   }
 }
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
+  .one figure img,
+  .images::before,
+  .images img {
+    display: block;
+  }
   .one {
     padding: 4px 16px;
   }
@@ -2383,7 +2394,7 @@ h4,
     display: flex;
   }
   .left-section h1 {
-    font-size: 10px;
+    font-size: 35px;
   }
   .left-section {
     margin-left: 0px;
@@ -2409,7 +2420,7 @@ h4,
     height: 350px;
   }
   .images img {
-    width: 15px;
+    width: 10px;
   }
   .images::before {
     width: 60px;
@@ -2423,8 +2434,8 @@ h4,
     right: 94%;
   }
   .images {
-    left: -86px;
-    top: 65px;
+    left: 42px;
+    top: -22px;
   }
   .left-section.content p {
     font-size: 14px;
@@ -2441,15 +2452,14 @@ h4,
     margin: 0px;
   }
   .content p {
-    font-size: 24px;
-    width: 250px;
-    height: 100px;
+    font-size: 23px;
+    width: 326px;
   }
   .left-section p {
     height: 210px;
   }
 }
-@media (max-width: 1440px) {
+@media (min-width: 1440px) {
   .one {
     padding: 4px 16px;
   }
