@@ -2001,7 +2001,7 @@ h4,
     width: 100%;
     padding: 4px 16px;
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
   }
 }
 @media (min-width: 1024px) {
@@ -2132,23 +2132,27 @@ h4,
 
   .nav-bar .dropdown:hover .dropdown-content {
     display: block;
+    display: block;
+    position: relative;
+    right: 232px;
+    top: 0px;
   }
+}
 
-  .title h1 span {
-    font-size: 20px;
-  }
+.title h1 span {
+  font-size: 20px;
+}
 
-  .left-section {
-    margin-left: 16px;
-  }
+.left-section {
+  margin-left: 16px;
+}
 
-  .one {
-    padding: 20px;
-  }
+.one {
+  padding: 20px;
+}
 
-  .title h1 {
-    font-size: 40px;
-  }
+.title h1 {
+  font-size: 40px;
 }
 
 @media (min-width: 768px) {
@@ -2178,5 +2182,79 @@ h4,
   }
   .nav-right .appointment-btn {
     display: none;
+  }
+}
+@media (max-width: 426px) {
+  .one {
+    padding: 4px 16px;
+  }
+  .one.title,
+  .title-content {
+    width: 50%;
+    padding: 0;
+    display: flex;
+  }
+  .left-section h1 {
+    font-size: 10px;
+  }
+  .left-section {
+    margin-left: 0px;
+  }
+  .one div.title {
+    margin-left: 0px !important;
+  }
+  .same-p {
+    width: 100%;
+    font-size: 9px;
+  }
+  .title h1 {
+    font-size: 21px;
+    margin: 0 0 1px;
+  }
+  .title-content.left-section {
+    margin-left: 0;
+  }
+  .one figure img {
+    width: 90px;
+    height: 90px;
+  }
+  .images img {
+    width: 11px;
+  }
+  .images::before {
+    width: 25px;
+    height: 25px;
+    border: 5px solid transparent;
+    top: 36%;
+    right: 66%;
+  }
+  .plays {
+    top: 41%;
+    right: 72%;
+  }
+  .images {
+    left: -44px;
+  }
+  .left-section.content p {
+    font-size: 14px;
+    width: 27%;
+  }
+  .buttons a {
+    width: 130px;
+    height: 50px;
+  }
+  .buttons {
+    display: flex;
+    justify-content: start;
+    align-items: anchor-center;
+    margin: 0px;
+  }
+  .content p {
+    font-size: 13px;
+    width: 250px;
+    height: 100px;
+  }
+  .left-section p {
+    height: 85px;
   }
 }
