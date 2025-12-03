@@ -2242,6 +2242,7 @@ h4,
   .buttons a {
     width: 130px;
     height: 50px;
+    font-size: 11px;
   }
   .buttons {
     display: flex;
