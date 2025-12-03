@@ -2194,6 +2194,10 @@ h4,
   .one.title {
     padding: 0px;
   }
+  .title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
   .one {
     width: 100%;
     padding: 0px !important;
@@ -2206,33 +2210,26 @@ h4,
     font-size: 22px !important;
   }
   .left-section h1 span {
-    font-size: 25px !important;
+    font-size: 35px !important;
     margin-right: 0px;
   }
   .title-content {
     width: 100%;
   }
   .same-p {
-    font-size: 13px;
-    padding-bottom: 7px;
-    padding-top: 15px;
+    font-size: 14px;
+    margin-bottom: 10px;
   }
   .content p {
-    font-size: 17px;
+    font-size: 14px;
     width: 268px;
     height: 90px;
   }
   .buttons {
     display: flex;
     justify-content: center;
-    padding: 5px !important;
-  }
-  .buttons a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 60px;
+    padding: 0px;
+    text-align: center;
   }
 }
 @media (max-width: 426px) {
