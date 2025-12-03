@@ -167,7 +167,6 @@ nav {
   color: white;
   border: 1px solid transparent;
   font-weight: bold;
-  width: 500px;
 }
 
 .buttons a:hover:not(.recomandation .left-section .buttons a:nth-child(2)) {
@@ -2192,6 +2191,9 @@ h4,
   .images img {
     display: none;
   } */
+  .one {
+    width: 100%;
+  }
   .images {
     display: none;
   }
