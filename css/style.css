@@ -2075,6 +2075,7 @@ h4,
     background-color: #fff;
     max-height: 0;
     overflow: hidden;
+    gap: 13px;
   }
   .menu-toggle:checked ~ .nav-bar {
     max-height: 227px;
@@ -2178,6 +2179,38 @@ h4,
   }
   .nav-right .appointment-btn {
     display: none;
+  }
+}
+@media (min-width: 1440px) {
+  .nav-bar {
+    gap: 30px;
+  }
+}
+@media (min-width: 320px) {
+  .one figure img,
+  .images::before,
+  .images img {
+    display: none;
+  }
+  .left-section h1 {
+    font-size: 14px;
+  }
+  .left-section h1 span {
+    font-size: 24px;
+  }
+  .same-p {
+    font-size: 10px;
+    padding-bottom: 15px;
+  }
+  .content p {
+    font-size: 17px;
+    width: 268px;
+    height: 90px;
+  }
+  .buttons {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px;
   }
 }
 @media (max-width: 426px) {
