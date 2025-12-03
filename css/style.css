@@ -2001,7 +2001,7 @@ h4,
     width: 100%;
     padding: 4px 16px;
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
   }
 }
 @media (min-width: 1024px) {
