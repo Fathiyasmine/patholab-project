@@ -2558,3 +2558,152 @@ h4,
     font-size: 50px;
   }
 }
+@media (max-width: 426px) {
+  .one-p {
+    font-size: small;
+  }
+  .best h1 {
+    font-size: 13px;
+  }
+  .two-p {
+    font-size: 9px;
+  }
+
+  .services ol div {
+    flex: 1 1 100%;
+    padding: 0px;
+  }
+  .services ol div li {
+    padding: 5px;
+    width: 100%;
+    height: 160px;
+  }
+  .services ol {
+    padding: 0px;
+  }
+  .two {
+    padding: 12px;
+  }
+  .services {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .one-p {
+    font-size: medium;
+  }
+  .best h1 {
+    font-size: 13px;
+  }
+  .two-p {
+    font-size: 9px;
+  }
+
+  .services ol div {
+    flex: 2 2 50%;
+  }
+  .services ol div li {
+    height: 160px;
+  }
+  .services ol {
+    padding: 0px;
+    width: 70%;
+  }
+  .two {
+    padding: 12px;
+  }
+  .services {
+    width: 90%;
+  }
+}
+@media (min-width: 1024px) {
+  .one-p {
+    font-size: x-large;
+  }
+  .best h1 {
+    font-size: 20px;
+  }
+  .two-p {
+    font-size: 15px;
+  }
+  .services ol div li {
+    height: 185px;
+  }
+  .services ol {
+    padding: 0px;
+  }
+  .two {
+    padding: 12px;
+  }
+  .services {
+    width: 100%;
+  }
+  .services ol div {
+    flex: 2 2 50%;
+  }
+}
+@media (min-width: 1440px) {
+  .one-p {
+    font-size: x-large;
+  }
+  .best h1 {
+    font-size: 30px;
+  }
+  .two-p {
+    font-size: 20px;
+  }
+
+  .services ol div li {
+    height: 230px;
+  }
+  .services ol {
+    padding: 0px;
+  }
+  .two {
+    padding: 12px;
+  }
+  .services {
+    width: 86%;
+  }
+  .services ol div {
+    flex: 3 3 25%;
+  }
+}
+@media (max-width: 426px) {
+  .image-left img {
+    display: none;
+  }
+  .content-right {
+    width: 100%;
+  }
+
+  .sec-three {
+    display: block;
+    padding: 0px;
+  }
+  .research .button {
+    width: 100%;
+  }
+  .button .buttons-one,
+  .buttons-two,
+  .buttons-three {
+    width: 35%;
+    height: 20%;
+  }
+  .two-column-list {
+    font-size: 10px;
+    gap: 40px;
+  }
+  .help-stars {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .contact,
+  .stars {
+    height: 30%;
+  }
+}
