@@ -2034,13 +2034,16 @@ h4,
   }
   .social-icons {
     display: flex;
-    position: relative;
-    top: -24px;
-    right: -89px;
+    position: absolute;
+    top: 194px;
+    right: -74px;
     gap: 20px;
   }
   .nav-bar a:nth-last-of-type(1):not(.dropdown a) {
     color: #002573;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
   }
   .container nav {
     display: flex;
@@ -2074,7 +2077,6 @@ h4,
     left: 0;
     width: 100%;
     background-color: #fff;
-    max-height: 0;
     overflow: hidden;
     gap: 13px;
   }
