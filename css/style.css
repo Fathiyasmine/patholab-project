@@ -2753,8 +2753,8 @@ h4,
   }
   .two-column-list {
     font-size: 10px;
-    gap: 70px;
-    width: 367px;
+    gap: 0px;
+    width: 332px;
   }
   .help-stars {
     display: flex;
@@ -2842,5 +2842,9 @@ h4,
   }
   .explore {
     display: none;
+  }
+
+  .four::before {
+    width: 100%;
   }
 }
