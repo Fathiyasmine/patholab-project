@@ -2035,11 +2035,13 @@ h4,
   .social-icons {
     display: flex;
     position: relative;
-    top: 266px;
-    right: 89px;
+    top: -24px;
+    right: -89px;
     gap: 20px;
   }
-
+  .nav-bar a:nth-last-of-type(1):not(.dropdown a) {
+    color: #002573;
+  }
   .container nav {
     display: flex;
     justify-content: space-between;
