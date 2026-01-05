@@ -74,7 +74,7 @@ a,
 .ul-head li:not(:last-child) {
   margin-right: 20px;
 }
-.fa-solid {
+.fa-solid .header {
   margin-right: 5px;
 }
 /*navigation*/
@@ -2715,10 +2715,6 @@ h4,
     width: 20px;
     height: 20px;
   }
-  .fa-solid {
-    position: absolute;
-    right: 20px;
-  }
   .stars p {
     font-size: 15px;
   }
@@ -2777,10 +2773,6 @@ h4,
   .stars img {
     width: 20px;
     height: 20px;
-  }
-  .fa-solid {
-    position: absolute;
-    right: 20px;
   }
   .stars p {
     font-size: 15px;
