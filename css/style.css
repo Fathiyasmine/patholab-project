@@ -2547,7 +2547,7 @@ h4,
     margin: 0px;
   }
   .content p {
-    font-size: 33px;
+    font-size: 29px;
     width: 460px;
     height: 100px;
   }
@@ -2641,7 +2641,7 @@ h4,
     width: 100%;
   }
   .services ol div {
-    flex: 2 2 50%;
+    flex: 2 2 30%;
   }
 }
 @media (min-width: 1440px) {
@@ -2699,11 +2699,148 @@ h4,
   .help-stars {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
+    flex-wrap: nowrap;
+    gap: 20px;
+    width: 280px;
   }
   .contact,
   .stars {
-    height: 30%;
+    height: 70px;
+    padding: 0px;
+  }
+  .content-right h4 {
+    font-size: 15px;
+  }
+  .stars img {
+    width: 20px;
+    height: 20px;
+  }
+  .fa-solid {
+    position: absolute;
+    right: 20px;
+  }
+  .stars p {
+    font-size: 15px;
+  }
+  .stars span,
+  .contact span {
+    font-size: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .image-left img {
+    display: none;
+  }
+  .content-right {
+    width: 430px;
+  }
+
+  .sec-three {
+    display: block;
+    padding: 0px;
+  }
+  .research .button {
+    width: 100%;
+  }
+  .content-right .two-p {
+    font-size: 15px;
+  }
+  .button .buttons-one,
+  .buttons-two,
+  .buttons-three {
+    width: 35%;
+    height: 20%;
+  }
+  .two-column-list {
+    font-size: 10px;
+    gap: 70px;
+    width: 367px;
+  }
+  .help-stars {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 50px;
+    width: 350px;
+  }
+  .contact,
+  .stars {
+    height: 70px;
+    padding: 0px;
+  }
+  .content-right h4 {
+    font-size: 15px;
+  }
+  .research {
+    width: 100%;
+  }
+  .stars img {
+    width: 20px;
+    height: 20px;
+  }
+  .fa-solid {
+    position: absolute;
+    right: 20px;
+  }
+  .stars p {
+    font-size: 15px;
+  }
+  .stars span,
+  .contact span {
+    font-size: 10px;
+  }
+  .same-p {
+    font-size: 20px;
+  }
+  .content-right h4 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 1024px) {
+  .sec-three .image-left img {
+    width: 300px;
+    height: 300px;
+  }
+  .image-left figure {
+    width: 290px;
+  }
+  .sec-three {
+    width: 100%;
+  }
+  .contact .same-p {
+    font-size: 20px;
+    padding: 3px;
+  }
+  /* .content-right {
+    display: flex;
+    justify-content: flex-start;
+  } */
+}
+@media (max-width: 426px) {
+  .four h4 {
+    font-size: 15px;
+    margin: 0;
+    padding: 30px;
+  }
+  .four span {
+    font-size: 18px;
+  }
+  .container .fourth {
+    height: 350px;
+    width: 100px;
+  }
+  .four .container {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .four {
+    height: auto;
+  }
+  .caroussel .carousel-item {
+    width: 100%;
+  }
+  .explore {
+    display: none;
   }
 }
